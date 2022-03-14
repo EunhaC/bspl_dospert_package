@@ -56,8 +56,8 @@ names(df)[names(df) == "df$ResponseId"] <- "ID"
 ## 6 R_4UistUDzw71os7k     7     4     5     6
 ```
 
-# Calculate domain-general and domain-specific risk preference
-Risk-taking preference can be calculated by sum of all domains(domain-general risk taking) and sum of each domain(domain-specific risk taking).
+# Calculate domain-general and domain-specific risk attitude
+Risk-taking attitude can be calculated by sum of all domains(domain-general risk taking, "sub_tot" column) and sum of each domain(domain-specific risk taking, "sub_xxx" column).
 
 ```r
 # Calculate the scores and extract the data
