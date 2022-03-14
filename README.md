@@ -67,7 +67,6 @@ df1$sum_hea = rowSums(df1[,c("hea_1", "hea_2", "hea_3", "hea_4", "hea_5", "hea_6
 df1$sum_rec = rowSums(df1[,c("rec_1", "rec_2", "rec_3", "rec_4", "rec_5", "rec_6")])
 df1$sum_soc = rowSums(df1[,c("soc_1", "soc_2", "soc_3", "soc_4", "soc_5", "soc_6")])
 df1$sum_tot = rowSums(df1[,c("sum_eth", "sum_fin", "sum_hea", "sum_rec", "sum_soc")])
-df[,c(1, 32, 33, 34, 35, 36, 37)]
 ```
 
 
